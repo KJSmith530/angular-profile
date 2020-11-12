@@ -17,7 +17,7 @@ export class ProfileService {
     return this.userProfile;
   };
 
-  // setUserProfile = () => {
-  //   return this.service.setUserProfile();
-  // };
+  setUserProfile = (userProfile: UserProfile) => {
+    this.userProfile = userProfile;
+  };
 }

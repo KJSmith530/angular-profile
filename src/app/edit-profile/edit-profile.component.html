@@ -1,5 +1,5 @@
 <div class="main">
-  <form class="form">
+  <form #editForm="ngForm" class="form" (ngSubmit)="submit(editForm)">
     <h2 class="title">Use the form below to update your profile</h2>
     <label class="label" for="name">Name</label>
     <input class="slim-input" type="text" name="name" id="name" ngModel />
@@ -13,6 +13,6 @@
       id="bio"
       ngModel
     ></textarea>
-    <button class="button" (click)="backToProfile()">Update</button>
+    <button type="submit" class="button">Update</button>
   </form>
 </div>

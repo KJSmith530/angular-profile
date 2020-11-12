@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: flex-end;
   background-color: lightgreen;
-  width: 40%;
+  width: 30%;
   height: 500px;
   margin-top: 30px;
   border-radius: 20px;
@@ -37,4 +37,10 @@
   background-color: #2e5331;
   color: white;
   border-radius: 20px;
+}
+
+.img {
+  height: 305px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
