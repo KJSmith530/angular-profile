@@ -1,1 +1,18 @@
-<p>edit-profile works!</p>
+<div class="main">
+  <form class="form">
+    <h2 class="title">Use the form below to update your profile</h2>
+    <label class="label" for="name">Name</label>
+    <input class="slim-input" type="text" name="name" id="name" ngModel />
+    <label class="label" for="contact">Contact</label>
+    <input class="slim-input" type="text" name="contact" id="contact" ngModel />
+    <label class="label" for="bio">Bio</label>
+    <textarea
+      class="big-input"
+      type="tex"
+      name="bio"
+      id="bio"
+      ngModel
+    ></textarea>
+    <button class="button" (click)="backToProfile()">Update</button>
+  </form>
+</div>

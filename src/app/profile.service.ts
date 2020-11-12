@@ -17,5 +17,7 @@ export class ProfileService {
     return this.userProfile;
   };
 
-  setUserProfile = () => {};
+  // setUserProfile = () => {
+  //   return this.service.setUserProfile();
+  // };
 }

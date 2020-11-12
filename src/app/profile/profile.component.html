@@ -1,7 +1,9 @@
 <main class="main">
+  <div class="profile-image"></div>
   <div class="profile-page">
-    <p>{{ userProfile.name }}</p>
-    <p>{{ userProfile.contact }}</p>
-    <p>{{ userProfile.bio }}</p>
+    <p class="user name">{{ userProfile.name }}</p>
+    <p class="user contact">{{ userProfile.contact }}</p>
+    <p class="user bio">{{ userProfile.bio }}</p>
+    <button class="edit-button" routerLink="/edit-profile">Edit</button>
   </div>
 </main>

@@ -5,7 +5,36 @@
 }
 
 .profile-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   background-color: lightgreen;
   width: 40%;
   height: 500px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.user {
+  padding: 5px;
+  margin-left: 25px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.contact {
+  color: rgb(255, 255, 255);
+}
+
+.edit-button {
+  align-self: center;
+  width: 90%;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  background-color: #2e5331;
+  color: white;
+  border-radius: 20px;
 }

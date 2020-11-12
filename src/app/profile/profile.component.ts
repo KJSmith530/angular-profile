@@ -18,4 +18,8 @@ export class ProfileComponent implements OnInit {
   getUserProfile = () => {
     return this.service.getUserProfile();
   };
+
+  // setUserProfile = () => {
+  //   return this.userProfile;
+  // };
 }
